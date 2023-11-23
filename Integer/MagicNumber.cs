@@ -2,7 +2,7 @@ public class MagicNumber
 {
     public static void Magic(int n)
     {   
-        //Magic number means sum of digits * Reverse of sum of digits = original number
+        //Magic number means sum of digits * Reverse of sum of digits = original number.
         int sum = 0, r;
         int temp = n;
         //for sum of digits
