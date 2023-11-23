@@ -40,6 +40,9 @@ public class months
 				case 12:
 					Console.WriteLine("December");
 					break;
+				default:
+					Console.WriteLine("NA");
+					break;
 			}
 			
 			
