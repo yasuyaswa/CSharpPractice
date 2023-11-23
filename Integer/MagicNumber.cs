@@ -6,30 +6,30 @@ public class MagicNumber
         int sum = 0, r;
         int temp = n;
         //for sum of digits
-        while (temp > 0)
+        while (n > 0)
         {
-            r = temp % 10;
+            r = n % 10;
             sum = sum + r;
-            temp = temp / 10;
+            n = n / 10;
         }
         System.Console.WriteLine(sum);
-        temp = sum;
+        n = sum;
         int rev = 0;
         //for reverse of digits
-        while (temp > 0)
+        while (n > 0)
         {
-            r = temp % 10;
+            r = n % 10;
             rev = rev * 10 + r;
-            temp = temp / 10;
+            n = n / 10;
         }
         System.Console.WriteLine(rev);
-        if (rev * sum == n)
+        if (temp == rev * sum)
         {
-            Console.WriteLine(n + " is a Magic number");
+            Console.WriteLine(temp + " is a Magic number");
         }
         else
         {
-            Console.WriteLine(n + " is not a Magic number");
+            Console.WriteLine(temp + " is not a Magic number");
         }
     }
 }
