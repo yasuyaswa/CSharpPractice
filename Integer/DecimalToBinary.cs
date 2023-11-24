@@ -6,8 +6,8 @@ public class DecimalToBinary{
             a[i]=n%2;
             n=n/2;
         }
-        for(i=i-1;i>=0; i--){
-            Console.Write(a[i]);
+        for(int j=i-1;j>=0; j--){
+            Console.Write(a[j]);
         }
         }
 
