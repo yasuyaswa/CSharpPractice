@@ -3,8 +3,14 @@ public class Exception{
         try{
             Console.WriteLine(n1/n2);
         }
-        catch(System.Exception e){
-            Console.WriteLine(e.Message);
+        catch (DivideByZeroException) {
+            Console.WriteLine("Cannot divide by zero");
+        }
+        catch (FormatException) {
+            Console.WriteLine("Invalid input. Please enter valid numbers.");
+        }
+        catch (System.Exception e) {
+            Console.WriteLine($"An error occurred: {e.Message}");
         }
     }
     }
