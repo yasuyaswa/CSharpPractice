@@ -4,7 +4,7 @@ public class AbbreviationOfText{
         string input = Console.ReadLine();
 
         string[] words = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-        string result = " ";
+        string result = "";
         foreach(string item in words){
             if(item.Length>0){
                 result+=item[0];
