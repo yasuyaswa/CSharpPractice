@@ -1,8 +1,8 @@
 public class CharacterCountInStrings{
     public static void CharacterCountInString(){
-        string e="1";
-        while(e!="0"){
-        Console.Write("Enter a String : ");
+        //string e="1";
+        // while(e!="0"){
+        // Console.Write("Enter a String : ");
         string input = Console.ReadLine();
         input = input.Replace(" ", String.Empty);
         while(input.Length>0){
@@ -15,9 +15,9 @@ public class CharacterCountInStrings{
             }
             Console.WriteLine(count);
             input=input.Replace(input[0].ToString(), String.Empty);
-        }
-            Console.WriteLine("\nEnter 0 for exit or any key to continue.");
-            e=Console.ReadLine();
+        // }
+        //     Console.WriteLine("\nEnter 0 for exit or any key to continue.");
+        //     e=Console.ReadLine();
         }
     }
 }
