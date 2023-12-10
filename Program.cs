@@ -49,6 +49,7 @@ class  Program {
     //MagicNumber.Magic(n);
     //Anagram.Anagrams();
     //Panagram.Panagrams();
+    //Heterogram.Heterograms();
   }
 }
 }

@@ -2,15 +2,19 @@ public class Heterogram{
     public static void Heterograms(){
         Console.Write("Enter the string: ");
         string input = Console.ReadLine();
-        int[] count = new int[26];
+        int[] a = new int[26];
         bool flag = true;
         foreach (char c in input){
-            int index = c-'a';
-            if(count[index]>0){
+            int i = c-'a';
+            if(a[i]>0){
                 flag= false;
                 break;
-            }count[index]++;
+            }a[i]++;
         }
-        flag= true;
+        if(flag==true){
+            Console.WriteLine(true);
+        }else{
+            Console.WriteLine(false);
+        }
     }
 }
