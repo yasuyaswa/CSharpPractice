@@ -1,3 +1,5 @@
+using System.Runtime.Intrinsics.Arm;
+
 public class Panagram{
     public static void Panagrams(){
         Console.WriteLine("Enter the string: ");
@@ -15,6 +17,7 @@ public class Panagram{
             Console.WriteLine("The string is a panagram");
         }else{
             Console.WriteLine("The string is not a panagram");
+            
         }
     }     
 }
