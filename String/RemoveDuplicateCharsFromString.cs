@@ -13,7 +13,7 @@ public class RemoveDuplicateCharsFromString{
         Console.WriteLine(result);
         // Console.WriteLine("Enter 0 for exit or any key to continue.");
         // e=Console.ReadLine();
-        }
+        //}
 
     }
 }

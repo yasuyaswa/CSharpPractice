@@ -1,7 +1,7 @@
 public class ReverseStrings{
     public static void ReverseString(){
-        string e="1";
-        while(e!="0"){
+        // string e="1";
+        // while(e!="0"){
         Console.Write("Enter a String : ");
         string input = Console.ReadLine();
         string result = String.Empty;
@@ -9,8 +9,8 @@ public class ReverseStrings{
             result+=input[i];
         }
         Console.WriteLine(result);
-            Console.WriteLine("\nEnter 0 for exit or any key to continue.");
-            e=Console.ReadLine();
-        }
+        //     Console.WriteLine("\nEnter 0 for exit or any key to continue.");
+        //     e=Console.ReadLine();
+        // }
     }
 }
