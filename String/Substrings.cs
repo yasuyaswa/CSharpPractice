@@ -1,8 +1,8 @@
 using System.Text;
 public class Substrings{
     public static void Substring(){
-        string e="1";
-        while(e!="0"){
+        // string e="1";
+        // while(e!="0"){
             Console.Write("Enter the string: ");
         string input = Console.ReadLine();
         for (int i = 0; i < input.Length; i++)
@@ -14,9 +14,9 @@ public class Substrings{
                     Console.Write(subString + " ");
                 }
             }
-            Console.WriteLine("\nEnter 0 for exit or any key to continue.");
-            e=Console.ReadLine();
-        }
+        //     Console.WriteLine("\nEnter 0 for exit or any key to continue.");
+        //     e=Console.ReadLine();
+        // }
             
     }
 }
